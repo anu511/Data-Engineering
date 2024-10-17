@@ -1,0 +1,8 @@
+SELECT TOP (5) [productid]
+      ,[productname]
+      ,[price]
+      ,[quantity]
+      ,[storename]
+      ,[city]
+      ,[totalamount]
+  FROM [sales].[dbo].[products]
