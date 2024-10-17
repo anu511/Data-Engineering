@@ -1,0 +1,1 @@
+hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.7.6.jar -file /home/hadoop/Documents/Assignment/mapper2.py -mapper mapper2.py -file /home/hadoop/Documents/Assignment/reducer2.py -reducer reducer2.py -input /FMCG -output /FMCG_output/output 
